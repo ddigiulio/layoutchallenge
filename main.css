@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	/* to remove padding from the navbar */
+}
+
+nav.top{	
+	background-color: lightgray;
+	width: 100%;
+	
+}
+
+h2{
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/*display as in-line block to be on same line as ul*/
+}
+
+nav.top ul{
+	display: inline-block;
+	list-style-type: none;
+	float: right;
+}
+
+nav.top li{
+
+   padding-top: 10px;
+   padding-bottom: 10px;
+   /* put padding so that li and h2 are aligned properly */
+   float: right;
+   padding-right: 20px;
+   font-size: 24px;
+   color: purple;
+
+}
+
+
+form {
+	margin-top: 25px;
+	margin-left: 80px;
+  	display:inline-block;
+  	width: 100%;
+}
+
+input[type=text]{
+
+	height: 30px;
+	font-size: 18px;
+	width: 40%;
+	position: relative;
+	
+}
+
+.mag{
+	height: 30px;
+	display:inline-block;
+	position: absolute;
+}
+
+nav.navBar{	
+	margin-top: 40px;
+	margin-left: 40px;
+	font-size :0;
+	
+
+}
+
+nav.navBar  ul{
+	display: inline-block;
+	list-style-type: none;
+
+	
+}
+
+nav.navBar li{
+	float: left;
+  	display: inline;
+  	font-size: 20px;
+  	border-top: solid 1px;
+  	border-bottom: solid 1px;  
+  	border-right: solid 1px; 
+  	height: 30px;
+
+}
+
+nav.navBar li:last-child{
+	
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+
+}
+
+nav.navBar li:first-child{
+	
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-left: solid 1px;
+	
+}
+
+div.results {
+	margin-top: 30px;
+	margin-left: 80px;
+}
+
+.blue{
+	color: blue;
+	font-weight: bold;
+}
+
+.gray{
+	color: gray;
+}
+
+
